@@ -6,4 +6,4 @@ INSERT INTO books (id, title, year, series_id) VALUES (1, "Game of Thrones", 199
 
 INSERT INTO series (id, title, author_id, subgenre_id) VALUES (1, "A Song of Ice and Fire", 1, 1), (2, "Second Series", 2, 2);
 
-INSERT INTO character_books (id, book_id, character_id) VALUES (1, 1, 1), (2, 1, 2), (3, 2, 2), (4, 3, 2), (5, 1, 3), (6, 2, 3), (7, 3, 3), (8, 1, 4)
+INSERT INTO characters (id, name, species, motto, author_id) VALUES ()
